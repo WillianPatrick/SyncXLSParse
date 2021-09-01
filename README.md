@@ -7,7 +7,7 @@ Tests performed with spreadsheets containing over 600,000 rows, average processi
 <b>
 Notes: I'm not considering the processing limits of the client or server hardware, which can be higher or lower depending on the case, this information is just the averages I got from my experience in testing in developer mode!  Thanks ;)
 </b>
-<br/>
+<br/><br/><br/>
 Usage:
 <code>
 SyncXLSParse.exe -ApplicationId "Application ID" -Server "https://parseapi.back4app.com/" -Key ".NET KEY" -username "Name User Registred" -password "***" -XlsSyncFolderPath "Full path directory" -RowsBuffer 2000
