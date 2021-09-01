@@ -4,3 +4,19 @@
 Tests performed with spreadsheets containing over 600,000 rows, average processing time of 80 rows per second multiplied by upload rate. Example: 80 x 10mb (upload) = 800 lines per second.  
 
 Notes: I'm not considering the processing limits of the client or server hardware, which can be higher or lower depending on the case, this information is just the averages I got from my experience in testing in developer mode!  Thanks ;)
+
+Usage:
+
+SyncXLSParse.exe -ApplicationId "Application ID" -Server "https://parseapi.back4app.com/" -Key ".NET KEY" -username "Name User Registred" -password "***" -XlsSyncFolderPath "Full path directory" -RowsBuffer 2000
+
+Parameters:
+
+-ApplicationId : string
+-Server : string
+-Key : string
+-username : string
+-password : string
+-XlsSyncFolderPath : string
+-RowsBuffer : integer 
+
+Notes: This aplication version only increment data on Parse database, for update or delete necessary manual actions on parse dashboard.
